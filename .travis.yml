@@ -17,10 +17,3 @@ install:
 script:
 - "$CXX --version"
 - "$CXX hello.cpp"
-deploy:
-  provider: releases
-  api_key:
-    secure: aTqd4CR4j74QgZ9zpK2qPELs2qYpi/TPeF8DaOaGKBlqy5h6GuiGgp86c3MfgV2Jjt2XJr1C4IPpLr89sEILhm9eznENTDKS+mlQSGhyHGbskk0/JWzGcmttEffIgOdWcHGdC7w8Z14R1TDVJJXfp2nRirbyNe/mMkEOQ01c+VU=
-  file: a.exe
-  on:
-    repo: Dane99/petulant-tyrion
